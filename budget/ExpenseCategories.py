@@ -11,9 +11,7 @@ def main():
         if not (a.issubset(b) and b.issubset(a)):
             print('Sets are NOT equal by == test')
 
-    if divided_set_comp != divided_for_loop:
-        print('Sets are NOT equal by == test')
-
+ 
 if __name__ == "__main__":
     main()
 
